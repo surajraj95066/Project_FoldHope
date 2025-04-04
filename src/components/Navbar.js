@@ -7,9 +7,6 @@ export default function Navbar() {
             <div className="container-fluid">
                 {/* <a className="navbar-brand" href="https://surajraj95066.github.io/project-react/">FoldHope</a> */}
                 <Link to="/" className="nav-link">FoldHope</Link>
-                <li className="nav-item">
-                            <Link to="/Testing" className="nav-link">Testing</Link>
-                        </li>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -22,7 +19,7 @@ export default function Navbar() {
                         <li className="nav-item">
                             <Link to="/Data1" className="nav-link">Survey Report</Link>
                         </li>
-                        
+
                     </ul>
                 </div>
             </div>
